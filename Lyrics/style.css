@@ -1,7 +1,28 @@
-body { background-color: black; color: white;}
+body { background-color: black; color: white; font-size: 20px;}
 
-h1 {text-align: center; font-size: 300%; }
+h1 {text-align: center; font-size: 300%; margin: 1em 1em;}
 
-table{text-align : left; border-collapse: collapse;}
-th { height: 30px;}
-td{ border-bottom: 1px solid #ddd;}
+table{text-align : left; border-collapse: collapse; width: 80%;}
+th { height: 30px;padding: 5px;}
+td{ border-bottom: 1px solid #ddd;padding: 5px;}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+<!-- <p style="white-space: pre-line;"> -->
